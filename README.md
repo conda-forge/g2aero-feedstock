@@ -1,11 +1,11 @@
-About g2aero
-============
+About g2aero-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/g2aero-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/NREL/G2Aero
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/g2aero-feedstock/blob/main/LICENSE.txt)
 
 Summary: G2Aero: Separable shape tensors for aerodynamic applications
 
