@@ -1,5 +1,5 @@
 {% set name = "G2Aero" %}
-{% set version = "0.1.2" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com//NREL/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: b9edb1f9fcc1403a44b34decc063a4e7716cebb9815669f52b68584dc8c37894
+  sha256: 7053fd138e7ee1a00b99d0d96579bcb24a1f1721e7d3a54743f4dba005b254c3
 
 build:
   noarch: python
