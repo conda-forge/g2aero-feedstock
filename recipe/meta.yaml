@@ -12,14 +12,14 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - numpy
     - pyyaml
     - scipy
@@ -30,6 +30,7 @@ test:
     - g2aero
   requires:
     - pip
+    - python {{ python_min }}
   commands:
     - pip check
 
